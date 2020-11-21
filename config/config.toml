@@ -1,0 +1,24 @@
+title = "Local Docker Dev Config"
+
+[database]
+dbType = "postgres"
+dbName = "app_db"
+server = "localhost"
+port = 25432
+username = "app"
+password = "pwd_app_555"
+
+# [database]
+# dbType = "mysql"
+# dbName = "phoenix_database"
+# server = "localhost"
+# port = 23306
+# username = "dev_user"
+# password = "pwd_dev_user_555"
+
+[redis]
+server = "localhost"
+port = 26379
+
+[JWT]
+secret = "f3edab9d72f078feb7e8f74704640425"
