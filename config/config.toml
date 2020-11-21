@@ -20,5 +20,5 @@ password = "pwd_app_555"
 server = "localhost"
 port = 26379
 
-[JWT]
+[jwt]
 secret = "f3edab9d72f078feb7e8f74704640425"

@@ -31,6 +31,15 @@ type database struct {
 	Port     int
 }
 
+type redis struct {
+	Server string `toml:"server"`
+	Port   int    `toml:"port"`
+}
+
+type jwt struct {
+	Secret string `toml:"secret"`
+}
+
 // ConfigCenter is Config Center configuations
 type ConfigCenter struct {
 	Acm configCenter
@@ -46,6 +55,8 @@ type envs struct {
 // Config is App Configs
 type Config struct {
 	Database database
+	Redis    redis
+	JWT      jwt
 
 	Environment envs
 }
