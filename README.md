@@ -30,7 +30,7 @@ export GO111MODULE=on # 建议放到环境变量配置
 go mod init
 
 # 直接运行
-go run main.go
+go run .
 
 # 编译
 go build
